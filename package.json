@@ -2,17 +2,29 @@
   "name": "elite-api",
   "version": "1.0.0",
   "description": "EliteDEV rest api",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./src/server.js",
+    "dev": "nodemon",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "mysql2": "^1.7.0",
+    "require-dir": "^1.2.0",
+    "sequelize": "^5.19.1"
   },
   "devDependencies": {
-    "nodemon": "^1.19.2"
+    "@types/node": "^12.7.8",
+    "eslint": "^6.4.0",
+    "eslint-plugin-import": "^2.18.2",
+    "nodemon": "^1.19.2",
+    "sequelize-cli": "^5.5.1",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.3"
   }
 }

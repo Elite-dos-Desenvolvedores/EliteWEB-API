@@ -1,0 +1,24 @@
+{
+
+    "compilerOptions": {
+
+        "target": "es6",
+
+        "module": "commonjs",
+
+        "outDir": "dist",
+
+        "sourceMap": true
+
+    },
+
+    "include": [
+        "src/**/*.ts", "src/models/index.js", "src/models/user.js", "src/server.js"
+    ],
+
+    "exclude": [
+        "node_modules",
+        ".vscode"
+    ]
+
+}
